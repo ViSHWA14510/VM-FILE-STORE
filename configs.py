@@ -8,7 +8,7 @@ class Config(object):
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002056408106"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "https://publicearn.com")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "548469c58f85d19221472ee23951d8bc910507bd")
-  BOT_OWNER = int(os.environ.get("BOT_OWNER", "6221524623"))
+  BOT_OWNER = int(os.environ.get("BOT_OWNER", "6899191648"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://alibaba0:alibaba0@alibaba0.61vkq.mongodb.net/?retryWrites=true&w=majority")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001811300784")
   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002048118352"))
