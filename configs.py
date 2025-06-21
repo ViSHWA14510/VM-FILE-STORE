@@ -3,7 +3,7 @@ import os
 class Config(object):
   API_ID = int(os.environ.get("API_ID", "27344784"))
   API_HASH = os.environ.get("API_HASH", "a12613f54c74d00bfb76cf8f0688c2ee")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6919202862:AAFVdqKOjg-P9BVt2PVxG494NofPO767kFM")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6919202862:AAG2hZKNwh82-FaVrhOYVYJiK8yv99SNAQQ")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "VM_FILE_STORE_BOT")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002056408106"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "papajiurl.com")
