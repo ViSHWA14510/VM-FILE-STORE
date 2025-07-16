@@ -3,7 +3,7 @@ import os
 class Config(object):
   API_ID = int(os.environ.get("API_ID", "27344784"))
   API_HASH = os.environ.get("API_HASH", "a12613f54c74d00bfb76cf8f0688c2ee")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6919202862:AAERaZGwY89MzYY_AYYAbl-pD9mT16kE5Gg")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6919202862:AAHyt6tRvcx9lCtkvTXCjBR7oUXVOc85iW4")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "VM_FILE_STORE_BOT")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002056408106"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "papajiurl.com")
@@ -11,7 +11,7 @@ class Config(object):
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "6899191648"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://alibaba0:alibaba0@alibaba0.61vkq.mongodb.net/?retryWrites=true&w=majority")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001811300784")
-  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002048118352"))
+  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002540488913"))
   BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
   FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
   BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
